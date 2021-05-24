@@ -1,0 +1,82 @@
+header, section, footer, aside, nav, article{
+    display: block;
+}
+
+.pf{
+    text-align: justify;
+}
+
+body{
+    text-align: justify;
+}
+
+.agrupar{
+    width: 960px;
+    border: 1px solid black ;
+    margin: 15px auto;
+}
+
+.cabecera{
+    text-align: left;
+    background-color: rgba(219, 148, 42, 0.466);
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.menu li{
+    list-style: none;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.menu{
+padding: 5px 5px;
+background: rgba(221, 218, 36, 0.404);
+
+}
+
+.seccion{
+    background: rgba(204, 132, 24, 0.466);
+    width: 600px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+
+img{
+    border: 3px dashed rgba(199, 36, 36, 0.671);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.columna{
+    background: rgb(255, 255, 255);
+    
+    }
+
+
+.articulo{
+    background: rgba(221, 218, 36, 0.521);
+    padding: 20px;
+    padding-left: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 20px;
+
+
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background: rgba(110, 110, 110, 0.733);
+    text-align: center;
+    color: seashell;
+}
