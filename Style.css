@@ -1,0 +1,25 @@
+header, section, footer, aside, nav, article{
+    display: block;
+}
+
+body{
+    text-align: justify;
+}
+
+.agrupar{
+    width: 960px;
+    border: 1px solid black ;
+    margin: 15px auto;
+}
+
+.cabecera{
+    text-align: left;
+    background-color: rgba(219, 148, 42, 0.521)
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+.menu{
+    padding: 5px 5px;
+    background-color: rgba(240, 240, 13, 0.486);
+}
